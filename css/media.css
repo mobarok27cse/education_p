@@ -1,0 +1,228 @@
+ /**Extra small devices (portrait phones, less than 576px)**/
+
+ @media (max-width: 575.98px) {
+ 	/*	header start*/
+ 	.custom_logo {
+ 		width: 165px;
+ 		height: 60px;
+ 	}
+ 	.custom_nav ul li a {
+ 		margin-top: 5px;
+ 		text-align: center;
+ 	}
+ 	.icon_6,
+ 	.ser-btn {
+ 		text-align: center;
+ 	}
+ 	.cus_drop {
+ 		background-color: #ffd338;
+ 		margin-left: 25%;
+ 	}
+ 	.cus_ditem {
+ 		color: white;
+ 		margin-left: 20%;
+ 		font-weight: 700;
+ 	}
+ 	/*	header end*/
+ 	/*	 banner start*/
+ 	.b_content h1 .b_tent {
+ 		font-weight: 700;
+ 		font-size: 30px;
+ 	}
+ 	.b_content h1 {
+ 		font-weight: 700;
+ 	}
+ 	.banner {
+ 		min-height: 380px;
+ 	}
+ 	.b_content {
+ 		margin-top: 90px;
+ 		padding-bottom: 0;
+ 	}
+ 	.common h1 {
+ 		font-size: 25px;
+ 	}
+ 	.scroll {
+ 		margin-top: 85px;
+ 	}
+ 	/*	 banner end*/
+ 	/*	 eduction start*/
+ 	.custom-btn {
+ 		width: 170px;
+ 		margin-left: 25%;
+ 		margin-bottom: 20px;
+ 	}
+ 	/*	 eduction end*/
+ 	/*	 card start*/
+ 	.bus-row {
+ 		display: none;
+ 	}
+ 	.feat-top {
+ 		margin-bottom: 30px;
+ 	}
+ 	.custom_card {
+ 		border-radius: 25px;
+ 		box-shadow: 0px 0px 0px 0px #cccccc;
+ 		overflow: hidden;
+ 		margin-top: 25px;
+ 	}
+ 	/*	 card end*/
+ 	/*	 detils start*/
+ 	.work-img-text i {
+ 		font-size: 12px;
+
+ 	}
+ 	.ppz {
+ 		font-size: 30px;
+ 	}
+ 	.work-header {
+ 		padding-bottom: 30px;
+ 	}
+ 	/*	 detils end*/
+ 	/*	 gallary start*/
+ 	.moment-image img {
+ 		margin-top: 30px;
+ 	}
+ 	.monent-image {}
+ 	/*	 gallary end*/
+ 	/*	 event start*/
+ 	.wyx {
+ 		font-size: 27px;
+ 	}
+ 	.special {
+ 		margin-top: 35px;
+ 		margin-bottom: 35px;
+ 	}
+ 	.cus_me {
+ 		margin: 25px 0;
+ 	}
+ 	.moment {
+ 		padding: 50px 0;
+ 	}
+ 	/*	 event end*/
+ 	/*	 contact start*/
+ 	.sign-up {
+ 		background: url(../images/footertop.png) center no-repeat;
+ 		background-image: none !important;
+ 		min-height: 1000px;
+ 		padding-top: 50px;
+ 	}
+
+ 	.color-1,
+ 	.color-2,
+ 	.color-3 {
+ 		font-size: 34px;
+ 	}
+
+ 	/*sign-up-end*/
+ 	/*	 contact end*/
+ 	/*footer start*/
+ 	.footer-menu ul li a {
+ 		padding: 0 12px;
+ 	}
+ 	.footer-text {
+ 		margin-top: 20px;
+ 	}
+ 	/*footer end*/
+ }
+
+ /**Small devices (landscape phones, 576px and up)**/
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+ 	.banner {
+ 		min-height: 630px;
+ 	}
+ 	.b_content {
+ 		margin-top: 169px;
+ 	}
+ 	.bus-row {
+ 		display: none;
+ 	}
+ 	.common h1 {
+
+ 		margin-bottom: 20px;
+ 	}
+ 	.cardd {
+ 		margin-bottom: 25px;
+ 	}
+ 	.sign-up {
+
+ 		min-height: 830px;
+ 		margin-top: -100px;
+
+ 	}
+ 	.color-1,
+ 	.color-2 {
+ 		font-size: 34px;
+ 	}
+ 	.cus_co {
+ 		margin-top: 25px;
+ 	}
+ 	.color-3 {
+ 		font-size: 30px;
+ 	}
+
+ 	footer {
+
+ 		margin-top: 0px;
+ 	}
+ 	.work-header {
+ 		padding-bottom: 68px;
+ 	}
+ 	.special {
+ 		margin-bottom: 40px !important;
+ 	}
+ 	.wyx {
+ 		font-size: 25px;
+ 	}
+ 	.llimg {
+ 		margin-top: 10px;
+ 	}
+ 	/*card start*/
+ 	/*card start*/
+ }
+
+ /**Medium devices (tablets, 768px and up)**/
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 	.bus-row {
+ 		display: none;
+ 	}
+ 	.b_content h1 {
+ 		font-size: 40px;
+ 	}
+
+ 	.cus-hed p {
+ 		font-size: 14px;
+ 	}
+ 	.cus-title {
+ 		font-size: 20px;
+ 	}
+	 .card-text{    font-size: 14px;}
+
+	 .custom-fot1{font-size: 14px;}
+	 .wyx{font-size: 19px;}
+	 .llimg {
+ 		margin-top: 10px;
+ 	}
+	 .sign-up-contant{font-size: 14px;}
+	 
+	 .color-1,
+ 	.color-2 {
+ 		font-size: 25px;
+ 	}
+	 .color-3 {
+ 		font-size: 21px;
+ 	}
+
+	 .contact-us-text{font-size: 14px;}
+	 
+ }
+
+ /**Large devices (desktops, 992px and up)**/
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /**Extra large devices (large desktops, 1200px and up)**/
+
+ @media (min-width: 1200px) {}
